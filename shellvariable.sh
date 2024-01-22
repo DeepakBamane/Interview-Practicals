@@ -8,6 +8,6 @@ Profrssion= Software-Engineer
 echo "Technology is $Technology , role is $Role and we are $Profrssion"
 
 #Install Docker
-yum update -y  # It will update repo 
-yum install docker -y # It will install docker
+sudo yum update -y  # It will update repo 
+sudo amazon-linux-extras install docker # It will install docker
 docker --version
